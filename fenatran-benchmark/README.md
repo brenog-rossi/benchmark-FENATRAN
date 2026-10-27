@@ -99,6 +99,15 @@ Builds the app and then runs the browser suites in `e2e/` against `dist/`, using
 
 To run one or more suites: `node e2e/run.mjs flow a11y`. `npm run e2e` runs all suites without building first and needs an existing `dist/`.
 
+After a deploy, run the suites against the published site with `E2E_URL`:
+
+```powershell
+$env:E2E_URL = 'https://brenog-rossi.github.io/benchmark-FENATRAN/'
+node e2e/run.mjs flow responsive a11y motion
+```
+
+The `offline` suite always uses the local `dist/`, because it needs to switch the network off.
+
 The Edge path is set in `e2e/lib.mjs`. The screenshots are git-ignored.
 
 ## Deploy (GitHub Pages)

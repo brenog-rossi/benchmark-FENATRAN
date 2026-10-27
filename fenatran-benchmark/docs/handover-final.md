@@ -1,6 +1,6 @@
 # Handover Final (v2)
 
-Status: local checks passed. Deploy and device tests are NOT done. They need explicit approval and a real phone.
+Status: published on 2026-10-27 at <https://brenog-rossi.github.io/benchmark-FENATRAN/>. Local and post-deploy checks passed. Real-device tests are NOT done yet; they need a real phone.
 
 ## 1. What changed in v2
 
@@ -10,6 +10,8 @@ Status: local checks passed. Deploy and device tests are NOT done. They need exp
 - New `gallery.json` in every ZIP for a photo carousel (see `docs/data-schema.md`, section 8).
 - `data.json` schema version 2.
 - The Profile link is hidden until a profile exists.
+- Component example in the form is "battery".
+- If a network blocks the published address, run the production build locally at <http://localhost:4173> (see README).
 
 ## 2. Results
 
@@ -19,10 +21,11 @@ Status: local checks passed. Deploy and device tests are NOT done. They need exp
 | `npm run coverage` (100 % thresholds) | Pass, 100 % lines, branches, functions and statements |
 | `npm run build` (tsc + vite + PWA) | Pass. Warning: main JS chunk above 500 kB |
 | `npm run quality` (Edge e2e) | 11 passed, 0 failed: profile to export flow (checks `gallery.json`), responsive at 6 viewports, axe at 390x844 and 1366x768, offline precache, reduced motion |
+| GitHub Actions (CI and Deploy Pages) | Pass |
+| e2e on the published site (`E2E_URL`) | 10 passed, 0 failed: flow, responsive (6 viewports), axe (2), reduced motion |
 
 ## 3. Not done (needs a device or approval)
 
-- Deploy to GitHub Pages: waiting for explicit approval. `deploy-pages.yml` runs on push to `main` or `workflow_dispatch`.
 - iPhone Safari and Android Chrome checks (install, profile, share-sheet export, offline).
 - WhatsApp send test with original-quality ZIPs and wipe-after-sending.
 
@@ -48,6 +51,7 @@ Status: local checks passed. Deploy and device tests are NOT done. They need exp
 
 ## 6. Device checklist (to run before the fair)
 
+- [x] Deployed URL opens (desktop Edge, 2026-10-27)
 - [ ] Deployed URL opens on iPhone Safari (no GitHub login)
 - [ ] Install to home screen works (iPhone and Android)
 - [ ] Profile page completes; v1 users are not blocked

@@ -23,14 +23,16 @@ const names = wanted.length ? wanted : Object.keys(SUITES)
 ensureDir(SHOTS)
 const tmp = mkdtempSync(join(tmpdir(), 'fenatran-e2e-'))
 const server = await startServer()
+// E2E_URL runs the suites against a deployed site (for example GitHub Pages) instead of dist/.
+const url = process.env.E2E_URL || server.url
 const browser = await launch()
 const results = []
 try {
   for (const name of names) {
     const suite = SUITES[name]
     if (!suite) throw new Error(`Unknown suite ${name}`)
-    console.log(`Running ${name}...`)
-    const out = await suite({ browser, url: server.url, tmp })
+    console.log(`Running ${name} on ${url}...`)
+    const out = await suite({ browser, url, tmp })
     results.push(...(Array.isArray(out) ? out : [out]))
   }
 } finally {
