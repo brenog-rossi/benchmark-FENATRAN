@@ -1,0 +1,124 @@
+.shell {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  width: 100%;
+}
+.shell__header {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  min-height: var(--header-h);
+  padding: 0 var(--sp-4);
+  padding-top: env(safe-area-inset-top);
+  background: var(--c-navy);
+}
+.shell__title {
+  display: inline-flex;
+  align-items: center;
+  min-height: var(--tap);
+  font: 500 18px var(--font-title);
+  color: var(--c-white);
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+@media (max-width: 399.98px) {
+  .shell__title {
+    font-size: 15px;
+    letter-spacing: 0.03em;
+  }
+}
+.shell__header {
+  justify-content: space-between;
+}
+.shell__link {
+  color: var(--c-white);
+  font: 500 16px var(--font-title);
+  min-height: var(--tap);
+  display: inline-flex;
+  align-items: center;
+}
+.shell__main {
+  flex: 1;
+  width: 100%;
+  min-width: 0;
+  padding: var(--sp-4);
+}
+.shell__footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: var(--footer-h);
+  padding-bottom: env(safe-area-inset-bottom);
+  background: var(--c-light);
+  color: var(--c-grey);
+  font-size: 12px;
+}
+
+.twopane {
+  display: flex;
+  flex-direction: column;
+  gap: var(--sp-4);
+  height: 100%;
+}
+@media (min-width: 1024px) {
+  .shell__main {
+    display: flex;
+    padding: 0;
+  }
+  .twopane {
+    flex-direction: row;
+    gap: 0;
+    width: 100%;
+  }
+  .twopane__list {
+    flex: 0 0 360px;
+    padding: var(--sp-4);
+    border-right: 1px solid var(--c-light);
+    overflow-y: auto;
+  }
+  .twopane__detail {
+    flex: 1;
+    min-width: 0;
+    padding: var(--sp-5);
+    overflow-y: auto;
+  }
+}
+
+@media (max-width: 1023.98px) {
+  .twopane--list .twopane__detail,
+  .twopane--detail .twopane__list {
+    display: none;
+  }
+}
+
+/* Primary actions: fixed at the bottom on phones, inline on wide screens. */
+.actionbar {
+  position: sticky;
+  bottom: 0;
+  z-index: 5;
+  display: flex;
+  gap: var(--sp-3);
+  margin: var(--sp-4) calc(-1 * var(--sp-4)) calc(-1 * var(--sp-4));
+  padding: var(--sp-3) var(--sp-4);
+  padding-bottom: calc(var(--sp-3) + env(safe-area-inset-bottom));
+  background: var(--c-white);
+  border-top: 1px solid var(--c-light);
+}
+.actionbar > .btn {
+  flex: 1;
+}
+@media (min-width: 1024px) {
+  .actionbar {
+    margin: var(--sp-5) 0 0;
+    padding: var(--sp-4) 0 0;
+    justify-content: flex-end;
+  }
+  .actionbar > .btn {
+    flex: none;
+    min-width: 200px;
+  }
+}

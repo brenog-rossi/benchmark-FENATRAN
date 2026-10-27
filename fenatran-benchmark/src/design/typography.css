@@ -1,0 +1,71 @@
+:root {
+  --font-title: 'Inter', system-ui, sans-serif;
+  --font-body: 'Inter', system-ui, sans-serif;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0;
+}
+
+/* Keeps focused or scrolled-to elements clear of the sticky header and action bar. */
+html {
+  scroll-padding-top: calc(var(--header-h) + var(--sp-2));
+  scroll-padding-bottom: 80px;
+}
+
+body {
+  font-family: var(--font-body);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--c-grey);
+  background: var(--c-white);
+  -webkit-text-size-adjust: 100%;
+  overflow-x: hidden;
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--font-title);
+  font-weight: 500;
+  color: var(--c-navy);
+  margin: 0;
+}
+
+h1 {
+  font-size: 24px;
+  line-height: 1.25;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+.label {
+  font-size: 12px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--c-teal-dark);
+}
+
+:focus-visible {
+  outline: none;
+  box-shadow: var(--focus-ring);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}

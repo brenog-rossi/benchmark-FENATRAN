@@ -1,0 +1,24 @@
+:root {
+  --c-navy: #202a44;
+  --c-grey: #53565a;
+  --c-light: #e8e5e3;
+  --c-silver: #a7a8a9;
+  --c-teal: #678c96;
+  --c-teal-dark: #396976;
+  --c-mint: #8dc9bf;
+  --c-white: #ffffff;
+  --c-danger: #b3261e;
+
+  --sp-1: 4px;
+  --sp-2: 8px;
+  --sp-3: 12px;
+  --sp-4: 16px;
+  --sp-5: 24px;
+  --sp-6: 32px;
+
+  --radius: 4px;
+  --tap: 44px;
+  --header-h: 56px;
+  --footer-h: 32px;
+  --focus-ring: 0 0 0 3px var(--c-teal-dark);
+}
