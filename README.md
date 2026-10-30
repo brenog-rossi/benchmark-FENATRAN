@@ -1,4 +1,4 @@
-# FENATRAN 2026 Benchmark
+# FENATRAN 2026 Benchmarking
 
 An offline web app for evaluating trucks and components at the FENATRAN 2026 fair.
 
@@ -9,4 +9,4 @@ Open the app link once while online. After that, it works without a connection. 
 
 This repository contains only the published build of the app (`app/`) and the user guide. GitHub Pages serves `app/` through `.github/workflows/pages.yml`.
 
-Version: 3.0.0
+Version: 3.1.0

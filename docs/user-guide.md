@@ -1,6 +1,6 @@
-# FENATRAN 2026 Benchmark - User guide
+# FENATRAN 2026 Benchmarking - User guide
 
-This guide is for the people who evaluate trucks and components at the FENATRAN 2026 fair. It covers how to install and open the app, record evaluations, export them to the team's WhatsApp group, and keep your phone storage under control. The same tips are in the app: tap the **?** icon at the top right.
+This guide is for the people who evaluate trucks, components, services and other offers at the FENATRAN 2026 fair. It covers how to install and open the app, record evaluations, export them to the team's WhatsApp group, and keep your phone storage under control. The same tips are in the app: tap the **?** icon at the top right.
 
 The app works offline. You need an internet connection only to open it for the first time, and again when the team publishes an update.
 
@@ -22,19 +22,18 @@ Some company networks block the app address. On the phone, use mobile data (4G/5
 
 ## 2. Your profile
 
-The first time you open the app, it shows one page:
+The first time you open the app, it asks only for your **e-mail**. Use your work e-mail: it identifies your evaluations in the export.
 
-- **E-mail** (required): use your work e-mail. It identifies your evaluations in the export.
-- **Name (optional)**: your name as you want it shown.
-
-Tap **Start**. When you start, the app asks the browser to keep your data safe on the device (persistent storage). Accept the browser prompt if it appears.
+Tap **Start**. The app follows your phone's light or dark mode. When you start, the app asks the browser to keep your data safe on the device (persistent storage). Accept the browser prompt if it appears.
 
 ![Profile page](images/390x844-onboarding.png)
 
 The two icons at the top right of every screen are:
 
-- **?** (Help): short tips for every task at the fair.
-- **Profile** (person icon): change your e-mail or name, then tap **Save profile**.
+- **?** (Help): on a phone, **How it works**: six step cards, each with a small picture of the screen. Swipe left for the next step. On a computer, short tips for every task at the fair.
+
+![How it works](images/390x844-help.png)
+- **Profile** (person icon): change your e-mail, then tap **Save profile**.
 
 ![Profile screen with Delete profile and data](images/390x844-profile.png)
 
@@ -42,7 +41,7 @@ The Profile screen also has **Delete profile and data**. It removes your profile
 
 ## 3. Home screen
 
-The home screen lists your evaluations, grouped by day (newest day first, for example "Today · Thu 29 Oct"). Each row shows the truck or component, how many attributes are scored (trucks) or how many media items it has (components), and a status chip:
+The home screen lists your evaluations, grouped by day (newest day first, for example "Today · Thu 29 Oct"). Each row shows the truck or the other item, how many attributes are scored (trucks) or how many media items it has (other evaluations), and a status chip:
 
 - **Draft**: you have not finalized it yet.
 - **Ready**: finalized and ready to export. You can still edit it.
@@ -52,12 +51,16 @@ The home screen lists your evaluations, grouped by day (newest day first, for ex
 Below the list you also see:
 
 - a hint with the number of evaluations ready to export;
-- the days you already sent and cleared ("... · sent"), for the last 7 export days;
+- on a computer, the days you already sent and cleared ("... · sent"), for the last 7 export days;
 - how much photo, video and audio data is stored on this phone.
 
 The bar at the bottom has **Export** (shown when you have evaluations) and **New evaluation**.
 
-If you have no evaluations yet, the screen says "No evaluations yet. Start with New evaluation."
+On a phone, the home screen has two tabs at the top: **Evaluations** (the list) and **History**. History shows one card for each of the last 7 exports you cleared from the phone: the date and time, and each evaluation sent (title, Truck with the number of scored attributes, or Other with its category). Exports made before version 3.1 show only "Cleared from this phone". The **New evaluation** button stays at the bottom on both tabs.
+
+On a phone, the list ends with a dashed **+ New evaluation** card, which does the same as the button in the bar.
+
+If you have no evaluations yet, a phone shows a large **New evaluation** card in the middle of the screen; tap it or the button at the bottom. On a computer, the list says "No evaluations yet. Start with New evaluation."
 
 ### Delete an evaluation from the list
 
@@ -66,7 +69,7 @@ Swipe a row to the left. A **Delete** button appears behind it: tap it, or swipe
 ## 4. Create an evaluation
 
 1. Tap **New evaluation**.
-2. Choose **Truck** or **Component**.
+2. Choose **Truck** or **Other** (a component, service, aftermarket offer, partner or anything else).
 
 ![Choose what you are evaluating](images/390x844-type-choice.png)
 
@@ -78,34 +81,46 @@ The truck editor has two parts.
 
 - **Brand**: choose from the list. Choose "Other" and fill in **Brand name**.
 - **Model**: for example "R 450 6x2".
-- **Brochure photos**: add photos of the brochure. Only photos are allowed here.
+- **First impressions** (optional): tap the row to open a text box for what strikes you first about the truck. The grey example text disappears when you type. The box grows as you write, then scrolls.
+- **Brochure photos**: the camera and gallery buttons below the model add photos of the brochure. Only photos are allowed here.
 
 **Truck Attributes Checklist**
 
-There are 13 attributes in three sections: "Chassis & build", "Cab access & interior" and "Living space". Tap a section title to open or close it; it shows how many of its attributes are scored ("1 of 4 scored"). The bar at the top of the checklist stays visible while you scroll and shows the total ("1 of 13 scored").
+There are 13 attributes in three sections: "Chassis & build", "Cab access & interior" and "Living space". The bar at the top of the checklist shows the total ("1 of 13 scored").
 
-Each attribute card shows a short title (for example "Seats") and its score. Tap it to open the full description and fill it in:
+On a phone, nothing is open at first. The checklist is four tiles: one per section, each with how many of its attributes are scored ("1 of 4 scored"), and **Add attribute**. Tap a tile to open its attributes as cards over the screen. Swipe left or right to move between them; the dots under the cards show where you are. Tap **×** (top right), tap outside the cards or press Escape to go back.
 
-- **Score**: 0 to 5. Tap a number to select it. To remove the score, tap **Clear** or tap the selected number again ("Not scored"). 0 means "Very poor / not present" and 5 means "Excellent".
-- **Comment**: your observation in writing. The box grows as you type.
-- **Photos, videos and voice notes**: the media for this attribute (section 5).
+Each card shows the number, the short title (for example "Seats") and the full description, then:
+
+- **Score**: 0 to 5, in one bar. Tap a number to select it: the numbers up to it take a colour (red for 0-1, amber for 2-3, green for 4-5) and the chosen one is solid. Tap the selected number again to remove the score.
+- **Media buttons**: the photos, videos and voice notes for this attribute (section 5).
+- **Comment**: your observation in writing ("Add a comment"). The box grows as you type.
+
+On a computer, the sections are a list. Tap a section title to open or close it, then tap an attribute to open it. The score there has a **Clear** button.
 
 You do not have to score every listed attribute. An unscored attribute shows "-" in the summary and is blank in the Excel file.
 
 ![Truck editor on a phone](images/390x844-editor-truck.png)
 
+![Attribute cards of a section](images/390x844-section-panel.png)
+
+**Final evaluation**
+
+Below the checklist, tap **Final evaluation** (optional) to write your overall view of the truck. Like First impressions, it opens by itself when it already has text; tap the row again to close it.
+
 **Your attributes**
 
-If you find something the list does not cover, tap **+ Add attribute**, type a name (up to 60 characters, different from the other attributes) and tap **Add**. The new card opens with the same score, comment and media fields. Attributes you add **need a score**: they show "Required" until you score them, and **Finalize** takes you to the first one without a score. To delete one, open it and tap **Remove attribute**; its score, comment and media are deleted.
+If you find something the list does not cover, tap **+ Add attribute**, type a name (up to 60 characters, different from the other attributes) and tap **Add**. The new card opens with the same score, comment and media fields; on a phone, it opens in a "Your attributes" tile. Attributes you add **need a score**: they show "Required" until you score them, and **Finalize** takes you to the first one without a score. To delete one, open it and tap **Remove attribute**; its score, comment and media are deleted.
 
-### Component evaluation
+### Other evaluation
 
-- **Component**: for example "Battery", "Headlamp" or "Seat".
-- **Manufacturer**.
-- **Images, videos and voice notes**: the media for the component.
+- **Category**: tap one of **Component**, **Service**, **Aftermarket**, **Partners** or **Other**. A new evaluation starts as Component.
+- **Name**: for example "Battery", "Fleet portal" or "Service plan".
+- **Manufacturer**: the supplier, brand or company.
+- **Images, videos and voice notes**: the media for this evaluation.
 - **Comments and observations**: free text.
 
-To finalize, only these are required: brand and model (truck), the scores of the attributes you added (truck), or the component name.
+To finalize, only these are required: brand and model (truck), the scores of the attributes you added (truck), or the name (Other).
 
 ### Autosave
 
@@ -123,9 +138,13 @@ Open the menu at the top right of the editor (three dots, "More actions") and ch
 
 ## 5. Media
 
-Each media area has four buttons: **Camera** (take a photo now), **Gallery** (choose photos or videos already on the phone), **Video** (record a video) and **Voice note** (record a voice note; on devices without recording support, the app lets you pick an audio file instead).
+Each media area is a row of icon buttons, with no title: **Camera** (take a photo now), **Gallery** (choose photos or videos already on the phone), **Video** (record a video) and **Voice note** (record a voice note; on devices without recording support, the app lets you pick an audio file instead).
 
 Brochure photos accept photos only.
+
+Right after you take a photo or choose one from the gallery, a card opens in the middle of the screen with the photo and a caption box. Type what the photo shows and tap **Save**, or tap **Skip** to add it later. Videos and voice notes do not open this card.
+
+![Caption card after a new photo](images/390x844-caption-card.png)
 
 Tap an item to open it. In the item sheet you can:
 
@@ -144,12 +163,11 @@ When an evaluation is complete:
 
 1. Open it and tap **Finalize** at the bottom.
 2. The "Review and finalize" screen shows a summary card (title, number of attributes scored, photos) and the scored attributes. Tap "+ ... not scored" to see the rest. If something required is missing, the screen lists it under "Required before finalizing".
-3. For a truck, write your **Final evaluation**: your overall view of the truck (optional). It is saved automatically.
-4. Tap **Confirm and finalize**. To keep working, tap **Back to editing**.
+3. Tap **Confirm and finalize**. To keep working, tap **Back to editing**.
 
 ![Review and finalize](images/390x844-confirm.png)
 
-The "Evaluation saved" screen confirms it. The evaluation stays on this phone until you export it. Tap **New evaluation** to continue, or **Home** to go back to the list.
+The "Evaluation saved" screen confirms it. The evaluation stays on this phone until you export it. After 2 seconds the app goes back to the Home list by itself (a short bar shows the count). Tap anywhere to stay on the screen; tap **New evaluation** to continue, or **Home** to go back to the list.
 
 ![Evaluation saved](images/390x844-saved.png)
 
@@ -160,12 +178,12 @@ Finalized evaluations can still be changed. In that case the button in the edito
 Export once a day, and always before you clear the phone.
 
 1. From the home screen tap **Export**.
-2. "Today's export" shows how many trucks, components and photos go into the ZIP, the videos, voice notes and media size, and the list of evaluations. Drafts are included as they are; a note names them.
+2. "Today's export" shows how many trucks, other evaluations and photos go into the ZIP, the videos, voice notes and media size, and the list of evaluations. Drafts are included as they are; a note names them.
 3. Tap **Create and share ZIP**. Photos are exported in original quality.
 
 ![Today's export](images/390x844-export-options.png)
 
-The file name looks like `FENATRAN2026_<Your_Name>_<yyyy-mm-dd>.zip`.
+The file name looks like `FENATRAN2026_<e-mail name>_<yyyy-mm-dd>.zip`, where the e-mail name is the part of your e-mail before the @.
 
 ### If the export is too big
 
@@ -193,7 +211,7 @@ After you have sent everything to the group, clear the evaluations from the phon
 1. On the share screen, tap **Clear evaluations**. (Tap **Not yet** to go back to the home screen and keep the data.)
 2. The dialog "Delete evaluations from this device?" asks you to confirm. Tap **Delete evaluations**.
 
-This deletes all evaluations and all media. Your profile is kept, so you do not have to fill it in again. The home screen keeps a short line for the day you sent.
+This deletes all evaluations and all media. Your profile is kept, so you do not have to fill it in again. The home screen keeps a record of the export: on a phone in the **History** tab, on a computer as a short line for the day you sent.
 
 Do not clear the phone until all ZIP files have reached the group. The deletion cannot be undone.
 
