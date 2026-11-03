@@ -24,20 +24,22 @@ Some company networks block the app address. On the phone, use mobile data (4G/5
 
 The first time you open the app, it asks only for your **e-mail**. Use your work e-mail: it identifies your evaluations in the export.
 
-Tap **Start**. The app follows your phone's light or dark mode. When you start, the app asks the browser to keep your data safe on the device (persistent storage). Accept the browser prompt if it appears.
+Tap **Start**. The app follows your phone's light or dark mode; you can change this later in your profile (**Appearance**). When you start, the app asks the browser to keep your data safe on the device (persistent storage). Accept the browser prompt if it appears.
 
 ![Profile page](images/390x844-onboarding.png)
 
 The two icons at the top right of every screen are:
 
-- **?** (Help): on a phone, **How it works**: six step cards, each with a small picture of the screen. Swipe left for the next step. On a computer, short tips for every task at the fair.
+- **?** (Help): opens over the screen you are on, with the screen blurred behind it. On a phone, **How it works**: six step cards, each with a small picture of the screen. Swipe left for the next step. On a computer, short tips for every task at the fair. Tap **X**, tap outside the card or use the phone's back to close it: you are back on the same screen, with nothing lost.
 
 ![How it works](images/390x844-help.png)
-- **Profile** (person icon): change your e-mail, then tap **Save profile**.
+- **Profile** (person icon): the screen shows a person icon, your e-mail and the note that your data stays on the phone. Change your e-mail, then tap **Save profile**. Everything fits on one phone screen.
 
-![Profile screen with Delete profile and data](images/390x844-profile.png)
+**Appearance** sets the colours: **Auto** (the default) follows your phone's light or dark mode, **Light** and **Dark** keep that look. The choice applies at once, without **Save profile**. It is a setting of this phone: it is not part of the export, and **Delete profile and data** does not reset it.
 
-The Profile screen also has **Delete profile and data**. It removes your profile, all evaluations and all media from this phone, after you confirm with **Delete everything**, and the app returns to the first page. Export first if you need the data. This cannot be undone.
+![Profile screen with Appearance and Delete profile and data](images/390x844-profile.png)
+
+The red outlined **Delete profile and data** button removes your profile, all evaluations and all media from this phone, after you confirm with **Delete everything**, and the app returns to the first page. Export first if you need the data. This cannot be undone.
 
 ## 3. Home screen
 
@@ -69,31 +71,30 @@ Swipe a row to the left. A **Delete** button appears behind it: tap it, or swipe
 ## 4. Create an evaluation
 
 1. Tap **New evaluation**.
-2. Choose **Truck** or **Other** (a component, service, aftermarket offer, partner or anything else).
+2. Tap **Truck** or **Other**. Use Other for anything that is not a truck: a component, service, aftermarket offer, partner or anything else.
 
 ![Choose what you are evaluating](images/390x844-type-choice.png)
 
 ### Truck evaluation
 
-The truck editor has two parts.
+The truck editor has two parts. The top line has a back arrow (to the home screen), the name of the truck ("Untitled truck" until you choose the brand or type the model; a long name ends with "…"), the **Draft** or **Ready** chip, **?** (how to score) and the menu. On a phone the whole editor fits one screen.
 
 **Vehicle**
 
-- **Brand**: choose from the list. Choose "Other" and fill in **Brand name**.
-- **Model**: for example "R 450 6x2".
-- **First impressions** (optional): tap the row to open a text box for what strikes you first about the truck. The grey example text disappears when you type. The box grows as you write, then scrolls.
-- **Brochure photos**: the camera and gallery buttons below the model add photos of the brochure. Only photos are allowed here.
+- **Brand** and **Model**, side by side. Brand: choose from the list; choose "Other" and fill in **Brand name**, which appears below. Model: for example "R 450 6x2".
+- **Brochure photos**: the camera and gallery buttons below Brand add photos of the brochure. Only photos are allowed here. The camera button shows how many photos there are; **See N media** opens them.
+- **First impressions** (optional): the button next to the gallery button opens a text box below the line for what strikes you first about the truck. The grey example text disappears when you type. The box grows as you write, then scrolls. Tap the button again to close it.
 
 **Truck Attributes Checklist**
 
-There are 13 attributes in three sections: "Chassis & build", "Cab access & interior" and "Living space". The bar at the top of the checklist shows the total ("1 of 13 scored").
+There are 13 attributes in three sections: "Chassis & build", "Cab access & interior" and "Living space". The line above the checklist shows the total ("1 of 13") and a bar.
 
-On a phone, nothing is open at first. The checklist is four tiles: one per section, each with how many of its attributes are scored ("1 of 4 scored"), and **Add attribute**. Tap a tile to open its attributes as cards over the screen. Swipe left or right to move between them; the dots under the cards show where you are. Tap **×** (top right), tap outside the cards or press Escape to go back.
+On a phone, nothing is open at first. The checklist is four tiles: one per section, each with how many of its attributes are scored ("1 of 4 scored"), and **Add attribute** (a low row across the screen when it is alone on the last line). Tap a tile to open its attributes as cards over the screen. Swipe left or right to move between them; each card stops in the middle of the screen, all cards have the same size, and the dots under the cards show where you are. Tap **×** (top right), tap outside the cards or press Escape to go back.
 
-Each card shows the number, the short title (for example "Seats") and the full description, then:
+Each card shows the number and the short title (for example "Seats"), with a **?** at the end of the title line. Tap **?** to read the full description of the attribute in a small pop-up; tap **?** again, tap anywhere else, press Escape or swipe to another card to close it. Attributes you add have no description, so they have no **?**. Below the title:
 
 - **Score**: 0 to 5, in one bar. Tap a number to select it: the numbers up to it take a colour (red for 0-1, amber for 2-3, green for 4-5) and the chosen one is solid. Tap the selected number again to remove the score.
-- **Media buttons**: the photos, videos and voice notes for this attribute (section 5).
+- **Media buttons**: a centred row of buttons for the photos, videos and voice notes of this attribute (section 5). The card shows no thumbnails: the buttons show how many items there are, and **See N media** opens them.
 - **Comment**: your observation in writing ("Add a comment"). The box grows as you type.
 
 On a computer, the sections are a list. Tap a section title to open or close it, then tap an attribute to open it. The score there has a **Clear** button.
@@ -106,7 +107,7 @@ You do not have to score every listed attribute. An unscored attribute shows "-"
 
 **Final evaluation**
 
-Below the checklist, tap **Final evaluation** (optional) to write your overall view of the truck. Like First impressions, it opens by itself when it already has text; tap the row again to close it.
+Below the checklist, tap **Final evaluation** (optional) to write your overall view of the truck. Like First impressions, it opens by itself when it already has text; tap the row again to close it. On a phone it sits just above **Finalize**.
 
 **Your attributes**
 
@@ -124,13 +125,12 @@ To finalize, only these are required: brand and model (truck), the scores of the
 
 ### Autosave
 
-Your changes are saved automatically on the device. The status line shows:
+Your changes are saved automatically on the device; you do not need to press a save button. A small note under the top line of the editor shows:
 
 - "Saving..." while the app writes the change.
 - "All changes saved" when it is done.
-- "Could not save. Check free storage." if the phone is out of storage. Free some space (section 9) and try again.
 
-You do not need to press a save button.
+If the phone is out of storage, "Could not save. Check free storage." appears in red on its own line. Free some space (section 9) and try again.
 
 ### Delete from the editor
 
@@ -141,6 +141,8 @@ Open the menu at the top right of the editor (three dots, "More actions") and ch
 Each media area is a row of icon buttons, with no title: **Camera** (take a photo now), **Gallery** (choose photos or videos already on the phone), **Video** (record a video) and **Voice note** (record a voice note; on devices without recording support, the app lets you pick an audio file instead).
 
 Brochure photos accept photos only.
+
+On a phone, the attribute cards of a section panel do not show thumbnails, so the score always stays visible. Instead, a small number on **Camera**, **Video** and **Voice note** shows how many photos, videos and voice notes the attribute has (photos from the gallery count on Camera, videos from the gallery on Video). Below the buttons, **See N media** opens a sheet with all the items of that attribute; tap one to open it, as described below. When you close the item, the sheet comes back; tap **Close** or outside it to return to the card.
 
 Right after you take a photo or choose one from the gallery, a card opens in the middle of the screen with the photo and a caption box. Type what the photo shows and tap **Save**, or tap **Skip** to add it later. Videos and voice notes do not open this card.
 
@@ -162,10 +164,10 @@ Photos larger than 4096 px are resized when they are stored. Videos and voice no
 When an evaluation is complete:
 
 1. Open it and tap **Finalize** at the bottom.
-2. The "Review and finalize" screen shows a summary card (title, number of attributes scored, photos) and the scored attributes. Tap "+ ... not scored" to see the rest. If something required is missing, the screen lists it under "Required before finalizing".
-3. Tap **Confirm and finalize**. To keep working, tap **Back to editing**.
+2. The **Review** screen shows a summary card (title, number of attributes scored, photos) and one row per section of the checklist, plus **Your attributes** if you added any. Each row shows how many attributes are scored and their average, for example "4 of 4 · avg 3.0". The first section is open; tap another to see all its attributes and scores (0-1 red, 2-3 yellow, 4-5 green; "–" means not scored). If something required is missing, the screen lists it under "Required before finalizing".
+3. Tap **Confirm and finalize**. To keep working, tap the back arrow at the top.
 
-![Review and finalize](images/390x844-confirm.png)
+![Review](images/390x844-confirm.png)
 
 The "Evaluation saved" screen confirms it. The evaluation stays on this phone until you export it. After 2 seconds the app goes back to the Home list by itself (a short bar shows the count). Tap anywhere to stay on the screen; tap **New evaluation** to continue, or **Home** to go back to the list.
 
