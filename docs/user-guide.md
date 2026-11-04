@@ -24,13 +24,15 @@ Some company networks block the app address. On the phone, use mobile data (4G/5
 
 The first time you open the app, it asks only for your **e-mail**. Use your work e-mail: it identifies your evaluations in the export.
 
-Tap **Start**. The app follows your phone's light or dark mode; you can change this later in your profile (**Appearance**). When you start, the app asks the browser to keep your data safe on the device (persistent storage). Accept the browser prompt if it appears.
+Below the e-mail, **Appearance** lets you choose the colours right away: **Auto** (the default) follows your phone's light or dark mode, **Light** and **Dark** keep that look. The choice applies at once, before you tap **Start**, and you can change it later in your profile.
 
-![Profile page](images/390x844-onboarding.png)
+Tap **Start**. When you start, the app asks the browser to keep your data safe on the device (persistent storage). Accept the browser prompt if it appears.
+
+![Welcome page with the e-mail and Appearance](images/390x844-onboarding.png)
 
 The two icons at the top right of every screen are:
 
-- **?** (Help): opens over the screen you are on, with the screen blurred behind it. On a phone, **How it works**: six step cards, each with a small picture of the screen. Swipe left for the next step. On a computer, short tips for every task at the fair. Tap **X**, tap outside the card or use the phone's back to close it: you are back on the same screen, with nothing lost.
+- **?** (Help): opens over the screen you are on, with the screen blurred behind it. On a phone, **How it works**: six step cards of the same height, each with a small picture of the screen. Swipe left for the next step. On a computer, short tips for every task at the fair. Tap **X**, tap outside the card or use the phone's back to close it: you are back on the same screen, with nothing lost.
 
 ![How it works](images/390x844-help.png)
 - **Profile** (person icon): the screen shows a person icon, your e-mail and the note that your data stays on the phone. Change your e-mail, then tap **Save profile**. Everything fits on one phone screen.
@@ -79,9 +81,11 @@ Swipe a row to the left. A **Delete** button appears behind it: tap it, or swipe
 
 The truck editor has two parts. The top line has a back arrow (to the home screen), the name of the truck ("Untitled truck" until you choose the brand or type the model; a long name ends with "…"), the **Draft** or **Ready** chip, **?** (how to score) and the menu. On a phone the whole editor fits one screen.
 
+Required fields have a red **\*** after their name, and "\* Required" is written once under the top line. If you leave a required field empty, its message appears below it ("Enter the model"); it goes away as soon as you fill it in.
+
 **Vehicle**
 
-- **Brand** and **Model**, side by side. Brand: choose from the list; choose "Other" and fill in **Brand name**, which appears below. Model: for example "R 450 6x2".
+- **Brand** and **Model** (both required), side by side. Brand: choose from the list; choose "Other" and fill in **Brand name** (required), which appears below. Model: for example "R 450 6x2".
 - **Brochure photos**: the camera and gallery buttons below Brand add photos of the brochure. Only photos are allowed here. The camera button shows how many photos there are; **See N media** opens them.
 - **First impressions** (optional): the button next to the gallery button opens a text box below the line for what strikes you first about the truck. The grey example text disappears when you type. The box grows as you write, then scrolls. Tap the button again to close it.
 
@@ -95,7 +99,7 @@ Each card shows the number and the short title (for example "Seats"), with a **?
 
 - **Score**: 0 to 5, in one bar. Tap a number to select it: the numbers up to it take a colour (red for 0-1, amber for 2-3, green for 4-5) and the chosen one is solid. Tap the selected number again to remove the score.
 - **Media buttons**: a centred row of buttons for the photos, videos and voice notes of this attribute (section 5). The card shows no thumbnails: the buttons show how many items there are, and **See N media** opens them.
-- **Comment**: your observation in writing ("Add a comment"). The box grows as you type.
+- **Comment**: your observation in writing ("Add a comment"). The box grows as you type; long comments scroll inside the box.
 
 On a computer, the sections are a list. Tap a section title to open or close it, then tap an attribute to open it. The score there has a **Clear** button.
 
@@ -116,12 +120,12 @@ If you find something the list does not cover, tap **+ Add attribute**, type a n
 ### Other evaluation
 
 - **Category**: tap one of **Component**, **Service**, **Aftermarket**, **Partners** or **Other**. A new evaluation starts as Component.
-- **Name**: for example "Battery", "Fleet portal" or "Service plan".
-- **Manufacturer**: the supplier, brand or company.
+- **Name** (required): for example "Battery", "Fleet portal" or "Service plan".
+- **Manufacturer** (required): the supplier, brand or company.
 - **Images, videos and voice notes**: the media for this evaluation.
 - **Comments and observations**: free text.
 
-To finalize, only these are required: brand and model (truck), the scores of the attributes you added (truck), or the name (Other).
+To finalize, only these are required: brand and model (truck), the scores of the attributes you added (truck), or the name and the manufacturer (Other). **Finalize** shows "Fill in the required fields first." and the message under each empty required field.
 
 ### Autosave
 
