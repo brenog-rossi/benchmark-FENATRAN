@@ -193,7 +193,9 @@ The file name looks like `FENATRAN2026_<e-mail name>_<yyyy-mm-dd>.zip`, where th
 
 ### If the export is too big
 
-WhatsApp accepts files up to 100 MB. If the export is bigger, the app shows "The export is too big for WhatsApp" with three choices:
+On **Chrome and Edge** (computer and Android), the app splits a big export by itself into parts of up to 50 MB (`..._part1of3.zip`, ...), because these browsers cannot share a bigger file. It does not ask. A part with one video bigger than 50 MB can only be downloaded (see below).
+
+On **iPhone** (Safari), WhatsApp accepts files up to 100 MB. If the export is bigger, the app shows "The export is too big for WhatsApp" with three choices:
 
 - **Split into parts**: creates several ZIP files (`..._part1of2.zip`, `..._part2of2.zip`). Each part has the full `data.json`, so any part can be read on its own.
 - **Export without videos**: only available if there are videos. Photos and voice notes are kept.
@@ -204,7 +206,11 @@ WhatsApp accepts files up to 100 MB. If the export is bigger, the app shows "The
 The screen "Your ZIP is ready" lists each ZIP file:
 
 1. Tap **Share** to send the ZIP to the WhatsApp group. If sharing is not available, tap **Download** and attach the file in WhatsApp as a **document** (not as photo or gallery), so nothing is compressed.
-2. Each ZIP you share or download gets a check mark. When every ZIP has one, the title changes to "Day sent".
+   - On a computer or an Android phone (Chrome, Edge), the shared file arrives in WhatsApp as `FENATRAN2026_….zip.txt`. This is normal: it is the same ZIP. Do not rename it.
+   - A part bigger than 50 MB shows "Too big to share from this browser. Download it and attach it in WhatsApp." and only the **Download** button.
+   - If Share shows "Sharing did not work. Use Download instead.", tap **Download** yourself; the app never downloads on its own.
+2. Each ZIP you share or download gets a check mark. When every ZIP has one, the title changes to "Day sent" and the app asks if the files reached the group (section 8).
+3. **Return home** goes back to the home screen and deletes nothing.
 
 The ZIP holds everything: the data, the summary, the Excel file, and all photos, videos and voice notes with their observations.
 
@@ -212,14 +218,15 @@ The ZIP holds everything: the data, the summary, the Excel file, and all photos,
 
 ## 8. Clear the phone after sending
 
-After you have sent everything to the group, clear the evaluations from the phone:
+The share screen has no delete button. The app asks by itself once every ZIP has a check mark (shared or downloaded):
 
-1. On the share screen, tap **Clear evaluations**. (Tap **Not yet** to go back to the home screen and keep the data.)
-2. The dialog "Delete evaluations from this device?" asks you to confirm. Tap **Delete evaluations**.
+1. The dialog "Did the files reach the group?" opens.
+2. Tap **Yes, delete** only if all ZIP files are in the group. The app deletes all evaluations and all media and goes back to the home screen.
+3. Tap **Not yet** to keep everything. You stay on the share screen and can still share or download the files. The app does not ask again for this export: to clear the phone later, export again, or use **Delete profile and data** on the profile screen (this also deletes the profile).
 
-This deletes all evaluations and all media. Your profile is kept, so you do not have to fill it in again. The home screen keeps a record of the export: on a phone in the **History** tab, on a computer as a short line for the day you sent.
+Your profile is kept, so you do not have to fill it in again. The home screen keeps a record of the export: on a phone in the **History** tab, on a computer as a short line for the day you sent.
 
-Do not clear the phone until all ZIP files have reached the group. The deletion cannot be undone.
+The deletion cannot be undone.
 
 ## 9. Storage tips
 
@@ -239,6 +246,7 @@ Do not clear the phone until all ZIP files have reached the group. The deletion 
 | The app is out of date. | Connect to the internet and reopen the app. The new version is used on the next visit. |
 | Camera or microphone does not work. | Allow the camera and microphone for the browser in the phone's settings. |
 | The ZIP does not share. | Tap **Download** and send the file from your downloads. |
+| A file in the group ends in `.zip.txt`. | It was shared from Chrome or Edge. It is the same ZIP; do not rename it. |
 | The app link does not open on a computer. | The network may block it. Use the local run at <http://localhost:4173> (see section 1). |
 
 For questions about the app, contact the development team.
