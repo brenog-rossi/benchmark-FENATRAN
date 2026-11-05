@@ -9,4 +9,4 @@ Open the app link once while online. After that, it works without a connection. 
 
 This repository contains only the published build of the app (`app/`) and the user guide. GitHub Pages serves `app/` through `.github/workflows/pages.yml`.
 
-Version: 3.4.0
+Version: 3.5.0

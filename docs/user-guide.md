@@ -1,6 +1,6 @@
 # FENATRAN 2026 Benchmarking - User guide
 
-This guide is for the people who evaluate trucks, components, services and other offers at the FENATRAN 2026 fair. It covers how to install and open the app, record evaluations, export them to the team's WhatsApp group, and keep your phone storage under control. The same tips are in the app: tap the **?** icon at the top right.
+This guide is for the people who evaluate trucks, components, services and other offers at the FENATRAN 2026 fair. It covers how to install and open the app, record evaluations, send them on WhatsApp to the person collecting the evaluations, and keep your phone storage under control. The same tips are in the app: tap the **?** icon at the top right.
 
 The app works offline. You need an internet connection only to open it for the first time, and again when the team publishes an update.
 
@@ -55,12 +55,12 @@ The home screen lists your evaluations, grouped by day (newest day first, for ex
 Below the list you also see:
 
 - a hint with the number of evaluations ready to export;
-- on a computer, the days you already sent and cleared ("... · sent"), for the last 7 export days;
+- on a computer, the exports you already sent ("... · sent"), with **Share again** (section 8);
 - how much photo, video and audio data is stored on this phone.
 
 The bar at the bottom has **Export** (shown when you have evaluations) and **New evaluation**.
 
-On a phone, the home screen has two tabs at the top: **Evaluations** (the list) and **History**. History shows one card for each of the last 7 exports you cleared from the phone: the date and time, and each evaluation sent (title, Truck with the number of scored attributes, or Other with its category). Exports made before version 3.1 show only "Cleared from this phone". The **New evaluation** button stays at the bottom on both tabs.
+On a phone, the home screen has two tabs at the top: **Evaluations** (the list) and **History**. History shows one card for each of the last 60 exports you sent: the date and time, each evaluation sent (title, Truck with the number of scored attributes, or Other with its category) and a **Share again** button (section 8). Exports made before version 3.1 show "No list saved for this export", and exports made before version 3.5 have no **Share again**. The **New evaluation** button stays at the bottom on both tabs.
 
 On a phone, the list ends with a dashed **+ New evaluation** card, which does the same as the button in the bar.
 
@@ -181,10 +181,10 @@ Finalized evaluations can still be changed. In that case the button in the edito
 
 ## 7. Export to WhatsApp
 
-Export once a day, and always before you clear the phone.
+Export once a day. Each export holds only the evaluations that are new or edited since your last export; nothing is deleted from the phone.
 
 1. From the home screen tap **Export**.
-2. "Today's export" shows how many trucks, other evaluations and photos go into the ZIP, the videos, voice notes and media size, and the list of evaluations. Drafts are included as they are; a note names them.
+2. "Today's export" says "New and edited evaluations since your last export." When some evaluations were already sent, a line such as "2 new · 3 already sent" shows how many go in this time. The screen shows how many trucks, other evaluations and photos go into the ZIP, the videos, voice notes and media size, and the list of evaluations. Drafts are included as they are; a note names them.
 3. Tap **Create and share ZIP**. Photos are exported in original quality.
 
 ![Today's export](images/390x844-export-options.png)
@@ -205,34 +205,44 @@ On **iPhone** (Safari), WhatsApp accepts files up to 100 MB. If the export is bi
 
 The screen "Your ZIP is ready" lists each ZIP file:
 
-1. Tap **Share** to send the ZIP to the WhatsApp group. If sharing is not available, tap **Download** and attach the file in WhatsApp as a **document** (not as photo or gallery), so nothing is compressed.
+1. Tap **Share** to send the ZIP on WhatsApp to the person collecting the evaluations. If sharing is not available, tap **Download** and attach the file in WhatsApp as a **document** (not as photo or gallery), so nothing is compressed.
    - On a computer or an Android phone (Chrome, Edge), the shared file arrives in WhatsApp as `FENATRAN2026_….zip.txt`. This is normal: it is the same ZIP. Do not rename it.
    - A part bigger than 50 MB shows "Too big to share from this browser. Download it and attach it in WhatsApp." and only the **Download** button.
    - If Share shows "Sharing did not work. Use Download instead.", tap **Download** yourself; the app never downloads on its own.
-2. Each ZIP you share or download gets a check mark. When every ZIP has one, the title changes to "Day sent" and the app asks if the files reached the group (section 8).
+2. Each ZIP you share or download gets a check mark. When every ZIP has one, the title changes to "Day sent" and the evaluations in it count as sent (section 8).
 3. **Return home** goes back to the home screen and deletes nothing.
 
-The ZIP holds everything: the data, the summary, the Excel file, and all photos, videos and voice notes with their observations.
+The ZIP holds the evaluations of this export: the data, the summary, the Excel file, and their photos, videos and voice notes with their observations.
 
 ![Your ZIP is ready](images/390x844-export-share.png)
 
-## 8. Clear the phone after sending
+## 8. After sending: everything stays on the phone
 
-The share screen has no delete button. The app asks by itself once every ZIP has a check mark (shared or downloaded):
+The export never deletes anything. Once every ZIP has a check mark (shared or downloaded), the evaluations in it count as sent:
 
-1. The dialog "Did the files reach the group?" opens.
-2. Tap **Yes, delete** only if all ZIP files are in the group. The app deletes all evaluations and all media and goes back to the home screen.
-3. Tap **Not yet** to keep everything. You stay on the share screen and can still share or download the files. The app does not ask again for this export: to clear the phone later, export again, or use **Delete profile and data** on the profile screen (this also deletes the profile).
+- They stay in the list on the home screen, and you can still open and change them.
+- The next export leaves them out. If you change a sent evaluation (text, score, photo, observation, or a removed item), it goes in the next export again, with all its data.
+- If you create the ZIP and leave without sharing or downloading every part, nothing counts as sent, and the same evaluations go in the next export.
+- When nothing is new or changed, **Export** shows "Nothing new to send" and no ZIP is created.
 
-Your profile is kept, so you do not have to fill it in again. The home screen keeps a record of the export: on a phone in the **History** tab, on a computer as a short line for the day you sent.
+The home screen keeps a record of each export sent: on a phone in the **History** tab, on a computer as a short line for each export.
 
-The deletion cannot be undone.
+### Share an export again
+
+If a ZIP did not arrive, or someone asks for it again, open **History** and tap **Share again** on that export. The app creates the same ZIP again: the same file name, the same parts, and the evaluations, photos, videos and voice notes exactly as they were when you sent it, even if you changed or deleted them afterwards. Share or download each ZIP as before; the title becomes "Sent again". Nothing is marked or logged again.
+
+A photo, video or voice note that you delete after sending stays hidden on the phone while an export in History uses it, so it still takes space (it counts in the storage line). It is deleted for good when that export leaves History (History keeps the last 60 exports) or with **Delete profile and data**.
+
+![History with Share again](images/390x844-history.png)
+
+To delete everything from the phone, use **Delete profile and data** on the profile screen (section 2). That is the only way to delete the evaluations all at once, and it cannot be undone.
 
 ## 9. Storage tips
 
 - Check the storage line at the bottom of the home screen often.
-- Export daily. Each export frees room for new evaluations once you clear the phone after sending.
-- Photos are exported in original quality, so ZIP files grow quickly. Export every day to keep each ZIP small.
+- On iPhone, add the app to your home screen (section 1, step 3). Safari can clear the data of a website that was not opened for 7 days; an app on the home screen is safer, and you should export every day anyway.
+- Export daily. The evaluations stay on the phone after the export, so the stored media grows each day (a typical day with 80 photos and 5 videos takes about 365 MB). Delete single evaluations you no longer need, or use **Delete profile and data** at the end of the fair.
+- Photos are exported in original quality. Export every day: each export holds only what is new or changed, so the ZIP stays small.
 - Use **Remove** on duplicate or blurry photos before you export.
 - Keep free storage on the device. Close other apps before a long export.
 - If you see "Could not save. Check free storage.", stop recording, free space, and try again.
@@ -246,7 +256,7 @@ The deletion cannot be undone.
 | The app is out of date. | Connect to the internet and reopen the app. The new version is used on the next visit. |
 | Camera or microphone does not work. | Allow the camera and microphone for the browser in the phone's settings. |
 | The ZIP does not share. | Tap **Download** and send the file from your downloads. |
-| A file in the group ends in `.zip.txt`. | It was shared from Chrome or Edge. It is the same ZIP; do not rename it. |
+| A file received on WhatsApp ends in `.zip.txt`. | It was shared from Chrome or Edge. It is the same ZIP; do not rename it. |
 | The app link does not open on a computer. | The network may block it. Use the local run at <http://localhost:4173> (see section 1). |
 
 For questions about the app, contact the development team.
